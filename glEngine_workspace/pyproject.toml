@@ -1,0 +1,50 @@
+## 1. 빌드시스템 설정
+[build-system]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+## 2. 프로젝트 정보 입력
+[project]
+name = "glEngine"
+version = "0.0.1"
+authors = [
+  { name="Name", email="tjdwodyd7712@gmail.com" },
+]
+description = "glEngine"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+# 3. 배포 환경 성 -------------------------------------------------------------------------------------------------------
+
+# 소스코드 설정 ------------------------------------------------------------------------------------------------
+
+# dependencies ------------------------------------------------------------------------------------------------
+
+dependencies = [
+]
+
+# Optional dependencies ------------------------------------------------------------------------------------------------
+[project.optional-dependencies]
+dev = [
+]
+export = [
+]
+explorer = [
+]
+logging = [
+]
+extra = [
+]
+
+# Tools settings -------------------------------------------------------------------------------------------------------
+[tool.setuptools]  # configuration specific to the `setuptools` build backend.
+package-dir = {"" = "src"}
+packages = { find = { where = ["src"], include = ["glEngine"], namespaces=false}}
+
+[tool.coverage.run]
+source = ["src/glEngine/"]

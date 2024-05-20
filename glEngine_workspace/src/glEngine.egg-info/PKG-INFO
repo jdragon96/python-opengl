@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: glEngine
+Version: 0.0.1
+Summary: glEngine
+Author-email: Name <tjdwodyd7712@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: export
+Provides-Extra: explorer
+Provides-Extra: logging
+Provides-Extra: extra
+
+```
+pip install glfw
+pip install PyOpenGL
+```

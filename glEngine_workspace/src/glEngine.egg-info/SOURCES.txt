@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/glEngine.egg-info/PKG-INFO
+src/glEngine.egg-info/SOURCES.txt
+src/glEngine.egg-info/dependency_links.txt
+src/glEngine.egg-info/requires.txt
+src/glEngine.egg-info/top_level.txt
